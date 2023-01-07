@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #5a3f37;
+}
+.face {
+  transition: 2s;
+  position: absolute;
+  background-color: #EF9D3F;
+  border-radius: 50px 50px 35px 35px;
+  height: 80px;
+  width: 100px;
+  border: 1.5px solid grey;
+  top:35%;
+  left: 45%;
+
+
+}
+.e1,.e2 {
+  position: relative;
+  background-color: grey;
+  height: 15px;
+  width: 15px;
+  float: left;
+  border-radius: 50%;
+  top: 50%;
+  left: 18%;
+}
+.e2{
+  left: 47%;
+}
+.n {
+  position: relative;
+  height: 6px;
+  width: 6px;
+  border-radius: 50px;
+  background-color: grey;
+  left: 44%;
+  top: 60%;
+  z-index: +2;
+}
+
+.nn{
+  height: 15px;
+  width: 25px;
+  position: relative;
+  background-color: white;
+  border-radius: 30%;
+  top: 50%;
+  left: 34%;
+  z-index: +1;
+
+}
+.m, .mm{
+  position: relative;
+  height: 8px;
+  width: 2px;
+  background-color: grey;
+  float: left;
+  top: 38%;
+  left: 45%;
+  z-index: +1;
+}
+
+.m {
+  transform: rotate(45deg);
+
+}
+.mm {
+  transform: rotate(-45deg);
+}
+.er,.el {
+  height: 25px;
+  width:25px;
+  position: relative;
+  background-color: #EF9D3F;
+  float: left;
+  border-radius: 50px 50px 40px 40px;
+  border: 2px solid grey;
+  top: -20px;
+  left: -15px;
+}
+
+.er {
+  transform: rotate(320deg);
+}
+.el{
+  transform: rotate(40deg);
+  left: 50px;
+}
+.err, .ell{
+  position: relative;
+  background-color: pink;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  /* z-index: +1; */
+}
+.err {
+  top: 20%;
+  left: 25%;
+}
+.ell {
+  top: 20%;
+  right: -20%;
+}
+.face:hover {
+  transform: scale(6.5,6.5);
+}
